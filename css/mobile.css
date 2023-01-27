@@ -159,6 +159,6 @@
   /* chinh font va khoang cach icon */
   #container_footer {
     font-size: 60% !important;
-    padding-left: 210px !important;
+    margin-left: 40px !important;
   }
 }
