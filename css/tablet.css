@@ -1,0 +1,232 @@
+@media (max-width: 768px) {
+  /* navbar */
+  /* an khung anh */
+  #nav-bar .img_navbar {
+    display: none;
+  }
+  /* chinh khung anh */
+  #banner {
+    height: 350px;
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0.6),
+        rgba(34, 34, 34, 0.6)
+      ),
+      url(images/banner1.jpg);
+  }
+  /* thong tin ca nhan */
+  /* tao grid */
+  #about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  /* chinh rong */
+  #personal-info {
+    width: 370px;
+  }
+  /* chinh khoang cach */
+  #target {
+    width: 370px;
+  }
+  /* chinh khoang cach */
+  .in_section-title {
+    padding-left: 60px;
+    width: 300px;
+  }
+  /* chinh khoang cach */
+  .section-title {
+    padding-left: 60px;
+    width: 300px;
+    font-size: 20px;
+  }
+  /* chinh khoang cach */
+  .section-title_info {
+    padding-left: 60px;
+    width: 300px;
+    font-size: 20px;
+  }
+  /* chinh khoang cach */
+  .mt-40 {
+    padding-left: 60px;
+    width: 300px;
+  }
+  /* jop */
+  #job-info,
+  .container_job {
+    position: relative;
+    padding-left: 28px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* tao cot */
+  .kinhngiem {
+    grid-template-columns: auto auto;
+    width: 300px;
+  }
+  /* chih khoang cach */
+  .h1_kinhngiem {
+    padding-top: 40px;
+  }
+  /* chinh khoang cach icon */
+  .ic-toolbox {
+    margin-top: 40px;
+  }
+  /* tao grid chinh sua  */
+  .hocvan,
+  .sothich,
+  .ngonngu {
+    display: grid;
+    padding-top: 25px;
+    border: 1px solid #dadddc;
+    line-height: 1.7;
+    padding-left: 30px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    width: 300px;
+  }
+  /* tao grid */
+  .sothich {
+    display: grid;
+    padding-top: 25px;
+    border: 1px solid #dadddc;
+    line-height: 1.7;
+    padding-left: 0px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+  }
+  /* chinh sua icon */
+  .iconfix_sothich {
+    color: blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: blue;
+    transform: scale(1.5, 1.5);
+
+    margin-left: 30px;
+  }
+  /* sua lai cot cho icon */
+  .icon4_sothich {
+    grid-column: 1/3;
+  }
+  /* hoat dong */
+  /* chinh khoang cach rong */
+  .h1_hoatdong {
+    padding-top: 40px;
+    margin: auto;
+    width: 247px;
+    padding-bottom: 50px;
+  }
+  /* chinh khoang cah */
+  .icon_hoatdong {
+    margin-top: 10px;
+  }
+  /* nau an */
+
+  .icon_nauan {
+    margin-left: -95px;
+  }
+  /* chung chi giai thuong */
+  /* tao cot hang chinh sua khoang cach */
+  .container_content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    line-height: 1;
+    row-gap: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  /* tao vien chinh thang hang font */
+  .container_web {
+    display: grid;
+    font-size: 20px;
+    border-right: 1px solid orange;
+  }
+  /* chinh chu */
+  .h2_chungchi {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  /* chinh khoang cach khung anh */
+  .img_web,
+  img {
+    justify-content: center;
+    width: 325px;
+    height: 200px;
+  }
+  /* tao vien chinh thang hang font */
+  .container_JS {
+    display: grid;
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  /* tao vien chinh thang hang font  gom cot*/
+  .container_DT {
+    padding-top: 20px;
+    border-top: 1px solid orange;
+    display: grid;
+    font-size: 20px;
+  }
+  /* chinh khoang cach */
+  .web_contain,
+  .JS_contain,
+  .DT_contain {
+    padding-left: 30px;
+  }
+  /* chinh khoang cach */
+  .section-title {
+    width: 500px;
+    padding-left: -60px;
+  }
+  /* Du an */
+  /* du an cv */
+  .duan_cv {
+    border: 1px solid rgb(160, 157, 157);
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 10px;
+  }
+  /* chinh khoang cach ben trong table */
+  tr,
+  td {
+    border-bottom: 1px solid rgb(160, 157, 157);
+    padding-bottom: 10px;
+  }
+  td {
+    position: relative;
+  }
+  /* wep quan ly thu cung */
+  /* tao grid */
+  .duan_web {
+    border: 1px solid rgb(160, 157, 157);
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 10px;
+  }
+  /* trang wep xem tin tuc */
+  /* tao grid  */
+  .duan_tintuc {
+    border: 1px solid rgb(160, 157, 157);
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 10px;
+  }
+  /* chinh khoang cach */
+  .duan_content {
+    padding-left: 10px;
+  }
+  /* chinh chieu rong */
+  .duan_cv,
+  .img_duan {
+    width: 225px;
+  }
+
+  /* footer */
+  #container_footer {
+    margin-left: -150px;
+    font-size: 80%;
+  }
+}

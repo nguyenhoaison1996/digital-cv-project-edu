@@ -1,0 +1,461 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+MAIN COLOR: #087f5b
+GREY COLOR: #343a40
+*/
+/* tao font  chuan */
+/* an li */
+.ul_kinhngiem {
+  list-style-type: none;
+}
+.tongmuc {
+  list-style-type: none;
+}
+body {
+  font-family: "Inter", Open Sans;
+  color: #343a40;
+  border: 2px solid #0f0f0f;
+  margin: auto;
+}
+/* Banner */
+/* lam hinh nen */
+#banner {
+  height: auto;
+  position: relative;
+  height: 500px;
+  background-size: cover;
+  color: #fff;
+}
+/*center text*/
+/* chinh khoang cach chu */
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  line-height: 1.7;
+}
+/*center inner text*/
+
+.inner {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  color: #dbe6f1;
+}
+
+/* nav-bar */
+/* Add a black background color to the top navigation */
+#nav-bar {
+  border: 1px solid #dadddc;
+  position: relative;
+}
+.container_navbar {
+  display: inline-block;
+  background-color: #fffbfb;
+  overflow: hidden;
+  color: black;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+}
+
+/* Style the links inside the navigation bar */
+.container_navbar a {
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+  float: left;
+  color: #131212;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  border-left: 1px solid #ddd;
+}
+
+/* Change the color of links on hover */
+.container_navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.container_navbar a.active {
+  background-color: #04aa6d;
+  color: #0c0c0c;
+}
+/* add color for icon */
+.icon-user,
+.icon-doc-text-inv,
+.icon-mail-alt,
+.icon-star-1 {
+  color: blue;
+}
+.img_navbar {
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+/* about */
+/* chia cot */
+.container_about {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+/* chinh khoang cach */
+.section-title {
+  padding-top: 70px;
+  padding-left: 200px;
+}
+/* chinh khoang cach chu */
+.in_section-title {
+  padding-top: 30px;
+  width: 600px;
+  font-size: 12px;
+  padding-left: 200px;
+  margin-right: 20px;
+}
+/* chinh khoang cach chu */
+.mt-40 {
+  padding-top: 30px;
+  width: 600px;
+  font-size: 12px;
+  padding-left: 80px;
+  margin-right: 20px;
+  padding-bottom: 40px;
+  line-height: 2;
+}
+/* chinh khoang cach */
+.section-title_info {
+  padding-top: 70px;
+  padding-left: 80px;
+}
+/* tao mau chinh hoang cach cho icon */
+.icon_personal {
+  color: blue;
+  padding-top: 20px;
+}
+/* tao background cho thong tin ca nhan */
+#personal-info {
+  background-color: #dadddc;
+}
+/* kinh ngiem hoc van hoat dong so thich ngon ngu */
+.container_job {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: grid;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+/* kinh ngiem */
+.kinhngiem {
+  display: grid;
+  padding-top: 80px;
+  border: 1px solid #dadddc;
+  line-height: 1.7;
+  padding-left: 30px;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: auto auto;
+}
+/* icon kich thuoc icon */
+
+.ic-toolbox {
+  transform: scale(2, 2);
+}
+/* chinh khoang cach */
+
+/* chu */
+.li_kinhngiem,
+.li_kinhngiem1 {
+  font-size: 14px;
+}
+/* chinh khoang cach */
+.li_kinhngiem {
+  padding-bottom: 40px;
+}
+/* chinh khoang cach */
+.li_kinhngiem1 {
+  padding-bottom: 40px;
+}
+/* gom cot gom hang */
+.ul_kinhngiem {
+  padding-top: 60px;
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+/* chinh khong gian */
+#job-info {
+  width: 1200px;
+  margin: auto;
+}
+
+/* hoc van */
+/* chia cot hang */
+.hocvan {
+  display: grid;
+  padding-top: 25px;
+  border: 1px solid #dadddc;
+  line-height: 1.7;
+  padding-left: 30px;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: auto auto;
+}
+/* chinh khoang cach */
+.h1_hocvan {
+  margin: auto;
+}
+/* chinh khoang cach phong to icon */
+.icon_hocvan {
+  transform: scale(2, 2);
+  margin: auto;
+}
+/* gom cot gom hang chinh khoang cach font */
+.content_hocvan {
+  padding-top: 0px;
+  grid-column: 1/3;
+  grid-row: 2/3;
+  padding-bottom: 40px;
+  font-size: 14px;
+}
+/* hoat dong */
+/* tao hang cot  */
+.hoatdong {
+  display: grid;
+  padding-top: 10px;
+  border: 1px solid #dadddc;
+  line-height: 1.7;
+  padding-left: 30px;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: auto auto;
+}
+/* chinh khoang cach */
+.h1_hoatdong {
+  margin: auto;
+}
+/* chinh khoang cach */
+.icon_hoatdong {
+  margin: auto;
+}
+/* gom cot hang chinh khoang cach */
+.content_hoatdong {
+  padding-top: 0px;
+  grid-column: 1/3;
+  grid-row: 2/3;
+  padding-bottom: 40px;
+  font-size: 14px;
+}
+/* so thich */
+/* tao cot hang */
+.sothich {
+  display: grid;
+  padding-top: 25px;
+  border: 1px solid #dadddc;
+  line-height: 1.7;
+  padding-left: 30px;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: auto auto;
+}
+/* gom cot chinh khoang cach */
+.h1_sothich {
+  margin: auto;
+  grid-column: 1/3;
+  padding-bottom: 40px;
+}
+/* gom cot chinh khoang cach */
+.icon_sothich {
+  margin: auto;
+  grid-column: 3/5;
+  padding-bottom: 20px;
+  transform: scale(2, 2);
+}
+/* tao vien cho icon  */
+.iconfix_sothich {
+  color: blue;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: blue;
+  transform: scale(1.5, 1.5);
+
+  margin-left: 30px;
+}
+/* chinh giua */
+.icon1_sothich,
+.icon2_sothich,
+.icon3_sothich,
+.icon4_sothich {
+  text-align: center;
+}
+/* ky nang */
+/* chia cot hang khoang cach  */
+.kynang {
+  display: grid;
+  padding-top: 75px;
+  border: 1px solid #dadddc;
+  line-height: 1.7;
+  padding-left: 30px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto;
+}
+/* khoang cach */
+.h1_kynang {
+  margin: auto;
+
+  padding-bottom: 40px;
+}
+/* phong to icon chinh khoang cach */
+.icon_kynang {
+  margin: auto;
+
+  padding-bottom: 20px;
+  transform: scale(2, 2);
+}
+/* gom cot chinh khoang cach */
+.content_kynangtong {
+  white-space: normal;
+  grid-column: 1/3;
+  padding-bottom: 40px;
+  font-size: 14px;
+}
+/* ngon ngu */
+/* tao cot hang chinh khoang cach chu cac padding */
+.ngonngu {
+  display: grid;
+  padding-top: 50px;
+  border: 1px solid #dadddc;
+  line-height: 1.7;
+  padding-left: 30px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto;
+}
+/* tao khoang cach */
+.h1_ngonngu {
+  margin: auto;
+  width: 300px;
+  padding-bottom: 40px;
+}
+/* chinh sua icon phong to  */
+.icon_ngonngu {
+  margin: auto;
+
+  padding-bottom: 20px;
+  transform: scale(2, 2);
+}
+/* gom cot chinh sua khoang cach */
+.content_ngonngu {
+  white-space: normal;
+  grid-column: 1/3;
+  padding-bottom: 40px;
+  font-size: 14px;
+}
+/* chung chi giai thuong */
+/* tao cot hang chinh sua khoang cach */
+
+.container_content {
+  display: grid;
+  grid-template-columns: auto auto;
+  line-height: 2;
+  row-gap: 20px;
+  padding-left: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/* tao vien chinh thang hang font */
+.container_web {
+  display: flex;
+  font-size: 12px;
+  border-right: 1px solid orange;
+}
+/* tao vien chinh thang hang font */
+.container_JS {
+  display: flex;
+  font-size: 12px;
+  padding-left: 20px;
+}
+/* tao vien chinh thang hang font  gom cot*/
+.container_DT {
+  grid-column: 1/3;
+  padding-top: 20px;
+  border-top: 1px solid orange;
+  display: flex;
+  font-size: 12px;
+}
+/* chinh khoang cach */
+.web_contain,
+.JS_contain,
+.DT_contain {
+  padding-left: 30px;
+}
+/* du an */
+.duan_content {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  column-gap: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 14px;
+}
+.content_iconweb {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.duan_nam {
+  background-color: rgb(19, 19, 153);
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+  width: 50px;
+  height: 20px;
+  margin-left: 20px;
+}
+/* du an cv */
+.duan_cv {
+  border: 1px solid rgb(160, 157, 157);
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  row-gap: 10px;
+}
+/* chinh khoang cach ben trong table */
+tr,
+td {
+  border-bottom: 1px solid rgb(160, 157, 157);
+  padding-bottom: 10px;
+}
+td {
+  position: relative;
+}
+/* wep quan ly thu cung */
+.duan_web {
+  border: 1px solid rgb(160, 157, 157);
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  row-gap: 10px;
+}
+/* trang wep xem tin tuc */
+.duan_tintuc {
+  border: 1px solid rgb(160, 157, 157);
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  row-gap: 10px;
+}
+/* tablet */

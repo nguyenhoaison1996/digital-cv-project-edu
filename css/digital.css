@@ -1,0 +1,252 @@
+body {
+  background-color: blue;
+}
+/* chinh khoang cach mau vien */
+h1 {
+  color: blue;
+  padding-left: 10px;
+  border-bottom: 1px solid rgb(170, 167, 167);
+  padding-bottom: 20px;
+}
+/* tao grid */
+.full {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  grid-template-rows: 50% 50%;
+  gap: 20px;
+
+  grid-template-areas:
+    "goals Team Timeline"
+    "Scopes Primary Timeline";
+}
+/* tao nen */
+.container {
+  background-color: rgb(220, 236, 220);
+}
+/* goals */
+/* che do */
+.goals {
+  display: grid;
+}
+/* khoang cach chu */
+.chude-goals {
+  line-height: 1.5;
+}
+/* chinh nam ngang */
+.goal1 {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+  line-height: 1.5;
+  font-size: 18px;
+  border-bottom: 1px solid rgb(170, 167, 167);
+  margin-bottom: 20px;
+}
+/* chinh nam ngang */
+.goal2 {
+  display: flex;
+  flex-direction: row;
+  line-height: 1.5;
+  font-size: 18px;
+}
+/* team */
+/*che do  */
+.Team {
+  display: grid;
+}
+/* chinh nam ngang */
+.team1 {
+  display: flex;
+  flex-direction: row;
+  line-height: 1.5;
+  font-size: 18px;
+}
+/* timeline */
+/* chinh nam ngang */
+.timeline1 {
+  display: flex;
+  flex-direction: row;
+  line-height: 1.5;
+  font-size: 18px;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+/* chinh nam ngang */
+.timeline2 {
+  display: flex;
+  flex-direction: row;
+  line-height: 1.5;
+  font-size: 18px;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+/* tao grid */
+.Timeline {
+  display: grid;
+
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+/* tao line */
+.line {
+  border-bottom: 1px dashed green;
+  padding-bottom: 10px;
+}
+/* scopes */
+/* tao grid */
+.Scopes {
+  display: grid;
+}
+/* chinh hang */
+.scopes-content {
+  display: flex;
+  flex-direction: row;
+  line-height: 1.5;
+  font-size: 18px;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+/* khoang cach */
+.scopes2 {
+  padding-left: 100px;
+  line-height: 3;
+}
+/* khoang cach */
+.scopes1 {
+  line-height: 3;
+  padding-left: 20px;
+}
+/* primary */
+/* che do */
+.Primary {
+  display: grid;
+}
+/* chinh hang */
+.primary1 {
+  display: flex;
+  flex-direction: row;
+  line-height: 1.5;
+  font-size: 18px;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+/* chinh hang */
+.primary2 {
+  display: flex;
+  flex-direction: row;
+  line-height: 1.5;
+  font-size: 18px;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+@media (max-width: 768px) {
+  /* goals */
+  /* chinh cot */
+  .goal1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  /* chinh cot */
+  .goal2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  /* khoang cach icon */
+  i.fa.fa-flag-checkered {
+    padding-left: 300px !important;
+  }
+  /* chinh cot */
+  .full {
+    display: flex;
+    flex-direction: column;
+  }
+  /* team */
+  /* chinh cot */
+  .team1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+  }
+  /* scopes */
+  /* chinh cot */
+  .scopes-content {
+    display: flex;
+    flex-direction: column;
+  }
+  /* chinh khoang cach */
+  .scopes2 {
+    padding-left: 20px;
+    line-height: 3;
+  }
+  /* chinh khoang cach */
+  .scopes1 {
+    line-height: 3;
+    padding-left: 20px;
+  }
+  /* primary */
+  /* chinh cot */
+  .primary1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+  }
+  /* chinh cot */
+  .primary2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+  }
+  /* timeline */
+  /* chinh cot */
+  .timeline1 {
+    display: flex;
+    flex-direction: column;
+  }
+  /* chinh cot */
+  .timeline2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  /* goals */
+  i.fa.fa-flag-checkered {
+    padding-left: 150px !important;
+  }
+  /* chinh cot */
+  .goal1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  /* chinh cot */
+  .goal2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  /* team */
+  /* chinh cot */
+  .team1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 170px;
+  }
+  /* primary */
+  /* chinh cot */
+  .primary1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+  }
+  /* chinh cot */
+  .primary2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+  }
+}
