@@ -226,7 +226,8 @@
 
   /* footer */
   #container_footer {
-    margin-left: -150px;
+    margin-left: 150px;
     font-size: 80%;
+    padding-left: 0px !important;
   }
 }
